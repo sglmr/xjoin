@@ -1,3 +1,3 @@
-module github.com/sglmr/xprod
+module github.com/sglmr/xjoin
 
 go 1.20

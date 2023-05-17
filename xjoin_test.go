@@ -1,7 +1,6 @@
 package xjoin
 
 import (
-	"log"
 	"testing"
 )
 
@@ -58,7 +57,6 @@ func TestTwoSlices(t *testing.T) {
 	s2 := []interface{}{1, 2, 3}
 	expected := append([][]interface{}{}, []interface{}{"a", 1}, []interface{}{"a", 2}, []interface{}{"a", 3}, []interface{}{"b", 1}, []interface{}{"b", 2}, []interface{}{"b", 3})
 	result := Join(s1, s2)
-	log.Println(result)
 
 	if equals(expected, result) == false {
 		t.Fatalf("\nError for empty slice:\n\tExpected: %v\n\tResult: %v", expected, result)

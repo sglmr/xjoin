@@ -1,7 +1,7 @@
 # xjoin: Cartesian Products with Go
 A small Go module for performing a cartesian product for a variable number of slices.
 
-This package tries to closely follow Python's [itertools.product()](https://docs.python.org/3/library/itertools.html#itertools.product)
+This module tries to closely follow Python's [itertools.product()](https://docs.python.org/3/library/itertools.html#itertools.product)
 
 ## Example
 ```go
